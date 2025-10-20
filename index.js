@@ -4,10 +4,10 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 const path = require('path');
 
-const mc = require('minecraft-protocol');
+const mc = require('MFRCRAFTS');
 const serverHost = 'MFRCrafts.aternos.me';
 const serverPort = 47550;
-const botUsername = '247_Monitor';
+const botUsername = 'meow69';
 const reconnectInterval = 1 * 40 * 1000;
 
 let bot = null; // Initialize the bot as null
